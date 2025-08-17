@@ -27,10 +27,9 @@ This project demonstrates building a simple, interactive web app with **Python F
 - **HTTP Requests**: Python `requests` library  
 
 ---
-
 ## ⚡ Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/<your-username>/ai-recipe-finder.git
@@ -38,8 +37,7 @@ cd ai-recipe-finder
 Create a virtual environment:
 
 bash
-Copy
-Edit
+
 python -m venv venv
 # Activate the virtual environment
 # Linux / Mac
@@ -49,24 +47,23 @@ venv\Scripts\activate
 Install dependencies:
 
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the Flask app:
 
-bash
-Copy
-Edit
 python app.py
 Open your browser and visit: http://127.0.0.1:5000
+---
+## 📝 Usage
 
-📝 Usage
 Enter an ingredient in the search box.
 
 Browse the list of meals returned by TheMealDB API.
 
 Click a meal to view detailed recipe information.
+---
 
-📄 License
+## 📄 License
+
 This project is licensed under the MIT License.
-
+---
