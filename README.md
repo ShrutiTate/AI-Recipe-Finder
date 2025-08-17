@@ -46,8 +46,10 @@ bash
 
 python app.py
 Open your browser and visit: http://127.0.0.1:5000
+'''
 
-📝 Usage
+
+# 📝 Usage
 Enter an ingredient in the search box.
 
 Browse the list of meals returned by TheMealDB API.
