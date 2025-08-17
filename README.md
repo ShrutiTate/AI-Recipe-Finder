@@ -49,11 +49,14 @@ Install dependencies:
 bash
 
 pip install -r requirements.txt
+
 Run the Flask app:
 
 python app.py
 Open your browser and visit: http://127.0.0.1:5000
----
+'''
+bash---
+
 ## 📝 Usage
 
 Enter an ingredient in the search box.
