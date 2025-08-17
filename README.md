@@ -1,6 +1,3 @@
-Here’s a polished **README.md** version for your **AI Recipe Finder** project that you can directly use for GitHub:
-
-````markdown
 # 🍽️ AI Recipe Finder
 
 **AI Recipe Finder** is a Flask-based web application that allows users to discover meals and recipes using ingredients they have. By integrating [TheMealDB API](https://www.themealdb.com/), the app lets users:
@@ -38,11 +35,11 @@ This project demonstrates building a simple, interactive web app with Python Fla
 ```bash
 git clone https://github.com/<your-username>/ai-recipe-finder.git
 cd ai-recipe-finder
-````
+Create a virtual environment:
 
-2. **Create a virtual environment:**
-
-```bash
+bash
+Copy
+Edit
 # Linux / Mac
 python -m venv venv
 source venv/bin/activate
@@ -50,40 +47,27 @@ source venv/bin/activate
 # Windows
 python -m venv venv
 venv\Scripts\activate
-```
+Install dependencies:
 
-3. **Install dependencies:**
-
-```bash
+bash
+Copy
+Edit
 pip install -r requirements.txt
-```
+Run the Flask app:
 
-4. **Run the Flask app:**
-
-```bash
+bash
+Copy
+Edit
 python app.py
-```
+Open your browser and visit:
+http://127.0.0.1:5000
 
-5. **Open your browser** and visit:
-   [http://127.0.0.1:5000](http://127.0.0.1:5000)
+📝 Usage
+Enter an ingredient in the search box.
 
----
+Browse the list of meals returned by TheMealDB API.
 
-## 📝 Usage
+Click a meal to view detailed recipe information.
 
-1. Enter an ingredient in the search box.
-2. Browse the list of meals returned by TheMealDB API.
-3. Click a meal to view detailed recipe information.
-
----
-
-## 📄 License
-
+📄 License
 This project is licensed under the MIT License.
-
-```
-
-I can also **create a more visually appealing version with badges, GIF previews, and enhanced formatting** for GitHub to make your repo look professional and engaging.  
-
-Do you want me to do that?
-```
