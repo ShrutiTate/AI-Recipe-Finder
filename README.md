@@ -31,22 +31,19 @@ cd ai-recipe-finder
 Create a virtual environment:
 
 bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 Install dependencies:
 
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the Flask app:
 
 bash
-Copy
-Edit
+
 python app.py
 Open your browser and visit: http://127.0.0.1:5000
 
