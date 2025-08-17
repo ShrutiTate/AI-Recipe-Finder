@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Meal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🍴 Hungry? Let’s Fix That!</h1>
+            <p>Uncover delicious recipes in a snap!</p>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="search-input" placeholder="Enter an ingredient .....">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="meal-result" class="results-section">
+            <!-- Meal results will appear here -->
+        </div>
+
+        <div id="meal-details" class="meal-details hidden">
+            <div class="backdrop"></div>
+            <div class="content">
+                <!-- Meal details will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
